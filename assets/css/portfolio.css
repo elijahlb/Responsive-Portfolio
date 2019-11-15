@@ -61,3 +61,25 @@ h4 {
 #aboutmewrapper {
     overflow:scroll;
 }
+
+@media only screen and (max-width: 640px) {
+    #nature {
+        position:relative;
+       float:left;
+       margin-left:8px;
+        margin-top:5px;
+    }
+    #parks {
+        position:relative;
+       float:left;
+       margin-left:8px;
+        margin-top:5px;
+    }
+    #bakeshop {
+        margin-bottom:15px;
+    }
+    #dice {
+        margin-bottom:15px;
+    }
+
+}

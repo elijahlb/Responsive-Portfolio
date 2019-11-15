@@ -109,28 +109,19 @@ footer {
     flex-shrink: 0;
 }
 
-@media screen and (max-width: 980px) {
-  
+@media screen and (min-width: 980px) {
+    body {
+        background-color: red;
+    }
   }
 
-  @media screen and (max-width: 768px) {
-    
+  @media screen and (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
 }
-@media only screen and (max-width: 640px) {
-    header {
-        position:static;
-    }
-    #myname {
-        margin-left:0px;
-        margin-bottom:30px;
-        width:380px;
-        text-align: center;
-        
-    }
-    #navbar {
-        position:relative;
-        float:left;
-        min-width:345px;
-        margin-bottom: -150px;
+@media only screen and (min-width: 640px) {
+    body {
+        background-color: blue;
     }
 }
