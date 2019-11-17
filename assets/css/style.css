@@ -79,7 +79,7 @@ a:link, a:visited {
     width: 62.5%; 
     margin-left:18%;
     margin-right:13.64%;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 .sociallink{
@@ -102,6 +102,9 @@ p {
 }
 
 footer {
+
+
+
     text-align: center;
     background-color: #666666;
     color: white;
@@ -110,7 +113,7 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-  
+
   }
 
   @media screen and (max-width: 768px) {
